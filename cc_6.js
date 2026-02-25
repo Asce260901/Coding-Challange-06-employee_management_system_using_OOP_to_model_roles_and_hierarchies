@@ -42,5 +42,17 @@ for (const mgr of managers) {
     console.log(mgr.describe());
 };
 
-
+class Company {
+    constructor(){
+        this.employees = [];
+    }
+    addEmployee(employee){
+        this.employees.push(employee);
+    }
+    listEmployees(){
+        for (const employee of employees) {
+            comsole.log(employee.describe());
+        }
+    }
+}
 
