@@ -1,0 +1,1 @@
+Employee managing system using OOP, to test the outputs for the employee and manager arrays just erase the // in front of the code right after them.
