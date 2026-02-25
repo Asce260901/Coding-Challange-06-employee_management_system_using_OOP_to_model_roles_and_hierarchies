@@ -5,7 +5,7 @@ class Employee {
         this.department = department;
         }
     describe(){
-        return `Employee ${this.name} is part of the ${this.department} department`;
+        return `Employee ${this.name} is part of the ${this.department} department.`;
     }
 };
 
@@ -16,7 +16,7 @@ class Manager extends Employee{
         this.teamSize = teamSize;
     }
     describe(){
-        return `${this.name} manages the ${this.department} department wich counts with ${this.teamSize} people.`;
+        return `${this.name} manages the ${this.department} department wich counts with ${this.teamSize} regular employees.`;
     }
 };
 
